@@ -1,5 +1,13 @@
-const AwardsItem = () => {
-  return <div>AwardsItem</div>
-}
+import { FC } from "react";
+import { AwardsItemContainer } from "./styles";
+import { AwardsItemProps } from "./types";
 
-export default AwardsItem
+const AwardsItem: FC<AwardsItemProps> = ({ count, subject }) => {
+  return (
+    <AwardsItemContainer>
+      <strong>{count}</strong>의 {subject}
+    </AwardsItemContainer>
+  );
+};
+
+export default AwardsItem;
