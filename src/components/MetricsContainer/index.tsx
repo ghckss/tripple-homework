@@ -6,7 +6,7 @@ import AppleLogo from "resources/badge-apple4x.png";
 
 const MetricsContainer = () => {
   return (
-    <Container>
+    <Container delay={800}>
       <MetricsItem
         image={PlayStoreLogo}
         text={"2018 구글 플레이스토어\n올해의 앱 최우수상 수상"}

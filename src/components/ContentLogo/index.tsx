@@ -4,7 +4,7 @@ const ContentLogo = () => {
   return (
     <ContentLogoContainer>
       <ContentImage />
-      <ContentText>2021년 12월 기준</ContentText>
+      <ContentText>2019년 2월 기준</ContentText>
     </ContentLogoContainer>
   );
 };

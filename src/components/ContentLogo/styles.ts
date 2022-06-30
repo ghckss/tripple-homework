@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
+import FadeInContainer from "components/FadeInContainer";
+
 import Logo from "resources/triple2x.png";
 
-export const ContentLogoContainer = styled.div`
+export const ContentLogoContainer = styled(FadeInContainer)`
   position: relative;
   width: 400px;
   height: 338px;

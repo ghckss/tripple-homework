@@ -1,3 +1,5 @@
 import styled from "styled-components";
 
-export const AwardsContainer = styled.div``;
+import FadeInContainer from "components/FadeInContainer";
+
+export const AwardsContainer = styled(FadeInContainer)``;
