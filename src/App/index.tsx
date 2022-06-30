@@ -1,7 +1,18 @@
 import React from 'react'
 
+import { AppContainer, DetailContainer } from './styles'
+import { AwardsContainer, ContentLogo, MetricsContainer } from 'components'
+
 function App() {
-  return <div className="App"></div>
+  return (
+    <AppContainer>
+      <ContentLogo />
+      <DetailContainer>
+        <AwardsContainer />
+        <MetricsContainer />
+      </DetailContainer>
+    </AppContainer>
+  )
 }
 
 export default App
