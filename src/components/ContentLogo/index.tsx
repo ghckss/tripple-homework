@@ -1,10 +1,12 @@
-import styled from "styled-components";
+import { ContentImage, ContentLogoContainer, ContentText } from "./styles";
 
-import Logo from "resources/triple2x.png";
-
-const ContentLogo = styled.img.attrs(() => ({ src: Logo }))`
-  width: 400px;
-  height: 338px;
-`;
+const ContentLogo = () => {
+  return (
+    <ContentLogoContainer>
+      <ContentImage />
+      <ContentText>2021년 12월 기준</ContentText>
+    </ContentLogoContainer>
+  );
+};
 
 export default ContentLogo;

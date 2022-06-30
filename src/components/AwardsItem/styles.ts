@@ -10,4 +10,8 @@ export const AwardsItemContainer = styled.div`
   strong {
     font-weight: bold;
   }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 `;
