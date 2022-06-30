@@ -5,6 +5,7 @@ export const AppContainer = styled.section`
   max-width: 1200px;
   display: flex;
   margin: 150px auto 0;
+  justify-content: center;
 `;
 
 export const DetailContainer = styled.div`
