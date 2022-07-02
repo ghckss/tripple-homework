@@ -1,7 +1,5 @@
-import React from 'react'
-
-import { AppContainer, DetailContainer } from './styles'
-import { AwardsContainer, ContentLogo, MetricsContainer } from 'components'
+import { AppContainer, DetailContainer } from "./styles";
+import { AwardsContainer, ContentLogo, MetricsContainer } from "components";
 
 function App() {
   return (
@@ -12,7 +10,7 @@ function App() {
         <MetricsContainer />
       </DetailContainer>
     </AppContainer>
-  )
+  );
 }
 
-export default App
+export default App;
