@@ -1,5 +1,9 @@
 import { AppContainer, DetailContainer } from "./styles";
-import { AwardsContainer, ContentLogo, MetricsContainer } from "components";
+import {
+  AwardsContainer,
+  ContentLogo,
+  MetricsContainer,
+} from "components/awards";
 
 function App() {
   return (

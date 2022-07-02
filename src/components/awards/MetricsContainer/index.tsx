@@ -1,5 +1,5 @@
 import { MetricsContainer as Container } from "./styles";
-import MetricsItem from "components/MetricsItem";
+import { MetricsItem } from "components/awards";
 
 import PlayStoreLogo from "resources/play-store2x.png";
 import AppleLogo from "resources/badge-apple4x.png";
