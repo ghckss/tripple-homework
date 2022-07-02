@@ -1,4 +1,4 @@
 export interface AwardsItemProps {
-  count: string;
-  subject: string;
+  count: string
+  subject: string
 }

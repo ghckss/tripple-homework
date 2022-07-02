@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const AppContainer = styled.section`
   width: 100%;
@@ -6,10 +6,10 @@ export const AppContainer = styled.section`
   display: flex;
   margin: 150px auto 0;
   justify-content: center;
-`;
+`
 
 export const DetailContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 223px;
-`;
+`

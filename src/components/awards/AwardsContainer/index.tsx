@@ -1,11 +1,14 @@
-import { AwardsContainer as Container } from "./styles";
-import { AwardsItem } from "components/awards";
-import useCounter from "hooks/useCounter";
+import { FC } from 'react'
 
-const AwardsContainer = () => {
-  const travelerCount = useCounter(350);
-  const reviewCount = useCounter(21);
-  const planCount = useCounter(649);
+import { AwardsContainer as Container } from './styles'
+
+import { AwardsItem } from 'components/awards'
+import useCounter from 'hooks/useCounter'
+
+const AwardsContainer: FC = () => {
+  const travelerCount = useCounter(350)
+  const reviewCount = useCounter(21)
+  const planCount = useCounter(649)
 
   return (
     <Container delay={400}>
@@ -19,7 +22,7 @@ const AwardsContainer = () => {
         <strong>{`${planCount}만 개`}</strong>의 여행 일정
       </AwardsItem>
     </Container>
-  );
-};
+  )
+}
 
-export default AwardsContainer;
+export default AwardsContainer

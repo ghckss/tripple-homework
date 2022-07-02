@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const AwardsItemContainer = styled.div`
   font-size: 36px;
@@ -14,4 +14,4 @@ export const AwardsItemContainer = styled.div`
   &:last-child {
     margin-bottom: 0;
   }
-`;
+`

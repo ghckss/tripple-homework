@@ -1,11 +1,14 @@
-import { AppContainer, DetailContainer } from "./styles";
+import { FC } from 'react'
+
+import { AppContainer, DetailContainer } from './styles'
+
 import {
   AwardsContainer,
   ContentLogo,
   MetricsContainer,
-} from "components/awards";
+} from 'components/awards'
 
-function App() {
+const App: FC = () => {
   return (
     <AppContainer>
       <ContentLogo />
@@ -14,7 +17,7 @@ function App() {
         <MetricsContainer />
       </DetailContainer>
     </AppContainer>
-  );
+  )
 }
 
-export default App;
+export default App

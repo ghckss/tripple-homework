@@ -1,1 +1,1 @@
-export { default as FadeInContainer } from "./FadeInContainer";
+export { default as FadeInContainer } from './FadeInContainer'

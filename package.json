@@ -7,24 +7,30 @@
     "build": "react-scripts build",
     "lint:es": "eslint '**/*.{js,ts,tsx}'",
     "lint:es:fix": "npm run lint:es -- --fix",
-    "prettier": "prettier '**/*' --check",
-    "prettier:fix": "prettier '**/*' --write",
+    "prettier": "prettier '**/*.{ts,tsx}' --check",
+    "prettier:fix": "prettier '**/*.{ts,tsx}' --write",
     "lint:style": "stylelint './**/*.{js,ts,tsx}'",
-    "lint:style:fix": "stylelint './**/*.{js,ts,tsx}' --fix"
+    "lint:style:fix": "stylelint './**/*.{js,ts,tsx}' --fix",
+    "lint": "yarn lint:es && yarn prettier && yarn lint:style"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "4",
     "reset-css": "^5.0.1",
     "styled-components": "^5.3.5",
-    "typescript": "^4.7.4"
+    "typescript": "4.3.5"
   },
   "devDependencies": {
+    "@titicaca/eslint-config-triple": "^3.1.0",
     "@types/node": "^16.11.42",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
-    "@types/styled-components": "^5.1.25"
+    "@types/styled-components": "^5.1.25",
+    "eslint": "7.32.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.9.1"
   },
   "eslintConfig": {
     "extends": [

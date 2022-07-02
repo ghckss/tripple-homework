@@ -1,4 +1,4 @@
 export interface MetricsItemProps {
-  image: string;
-  text: string;
+  image: string
+  text: string
 }

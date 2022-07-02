@@ -1,14 +1,13 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components'
 
 const FadeInContainer = styled.div<{ delay?: number }>`
   opacity: 0;
-
   animation: ${({ delay }) =>
     css`
-      fadeIn 500ms ease-in ${delay || 0}ms forwards
+      fade-in 500ms ease-in ${delay || 0}ms forwards
     `};
 
-  @keyframes fadeIn {
+  @keyframes fade-in {
     from {
       opacity: 0;
     }
@@ -17,6 +16,6 @@ const FadeInContainer = styled.div<{ delay?: number }>`
       opacity: 1;
     }
   }
-`;
+`
 
-export default FadeInContainer;
+export default FadeInContainer
